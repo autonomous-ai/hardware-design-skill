@@ -100,6 +100,9 @@ A new session knows only what is written down. A lesson that isn't written here 
       size and depth, and the part it mates with (§6.2).
 - [ ] Each hole position has a reason (§7): the mating part, load, edge distance or tool access. "Even spacing" or
       "as in the old model" is not a reason.
+- [ ] A row with more holes than the parts it holds may be there for adjustment, so a part can move along it. Ask
+      the hole row's job before you call it a drawing error or remove holes. (2026-11-05, GaragePod corner column: the
+      15-hole rows on the fan plates let the slats change position.)
 - [ ] Datums A/B/C are real faces you can clamp and measure (§6.3). Each controlled size has a tolerance, either its
       own or a stated general rule.
 - [ ] Don't put ISO 2768-m on everything (§3.2). Wood, felt, glass and bonded panels need their own tolerances.
@@ -137,3 +140,4 @@ New lessons go into the checklist above, each with its date and the case that ta
   direction, dimensions to centres, fastener counts, middle member, re-checking inherited sizes, full sheets, corner
   screws, screws inside one board, a reason for each part, answering from the plan first, and using the planned
   joint.
+- 2026-11-05, GaragePod corner column: the line on adjustment hole rows.
