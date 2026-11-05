@@ -53,6 +53,10 @@ A new session knows only what is written down. A lesson that isn't written here 
 - [ ] A large frame bay (about 1450 × 1000 or more) needs a middle member. Say which axis it runs on, and why.
 - [ ] Wood and board parts (§9): say the board type, grain direction, cut list, jig or CNC step, and the glue and
       press order.
+- [ ] Choose each material (wood species, board, glue, fastener) from the properties the part needs: compare the
+      options and give the reason. Never just inherit it from the old version or "what the factory uses". (2026-11-05, FocusPod rev E factory review)
+- [ ] Size cut parts to stock you can buy (standard timber sections, sheet sizes), to save cost and cut tolerances.
+      Every size and spec carries its reason. (2026-11-05, FocusPod rev E factory review)
 - [ ] Names follow the pattern assembly - part - position - variant (§4.2). Call a part COMMON only when its shape
       and machining are identical. File names are PARTNO_REV_NAME_DOCTYPE, never final, new or latest.
 - [ ] Gaps between parts have a job (§7): looks, paint, expansion, seal squeeze, fit tolerance or removal. Give the
@@ -67,7 +71,11 @@ A new session knows only what is written down. A lesson that isn't written here 
 - [ ] Frame corners have a defined joint, for example glue plus screws, with the count and positions.
 - [ ] Glue joints have a spec (§8.2): which glue, both surfaces, surface prep, coverage or bondline thickness,
       pressing and cure time.
+- [ ] Name the glue yourself, from the properties the joint needs (load, moisture, heat, cure, the two materials).
+      Never write "the factory's usual glue". (2026-11-05, FocusPod rev E factory review)
 - [ ] Don't use permanent glue where the joint must come apart for service (§8.2).
+- [ ] For a fastening system (Velcro, clips, magnets), say how it attaches to each side and why it is the best
+      option: long-term holding force, and no gaps where air or sound leaks. (2026-11-05, FocusPod rev E factory review)
 - [ ] Work out the tolerance stack at each important joint, at both limits, not only the nominal size (§6.3).
 
 ### 4. Fasteners
@@ -83,6 +91,7 @@ A new session knows only what is written down. A lesson that isn't written here 
 - [ ] Each screw sits wholly in one board, at least 15 from its edge. A screw split across two boards joins nothing.
 - [ ] Each screw is defined exactly (§8.1): standard, diameter × length, head, material and finish. Give the pilot
       hole in wood (diameter and depth), the edge distances and the thread engagement in the base.
+- [ ] Model every fastener hole in the 3D at its standard size (ISO clearance or pilot), not only in the tables. (2026-11-05, FocusPod rev E factory review)
 - [ ] Screws go into a base that is designed to hold them: wood, a block or an insert. Never into felt, soft lining
       or thin MDF (§8.1).
 - [ ] Screws into wood need a pilot hole, the grain direction, edge distance and a pull-out check on the real
@@ -153,3 +162,5 @@ New lessons go into the checklist above, each with its date and the case that ta
 - 2026-11-05, FocusPod rev E resend: the native file goes with every STEP.
 - 2026-11-05, GaragePod wood frames: keep the plan's design values exact.
 - 2026-11-05, GaragePod link plate: floor fixing, and marked screenshots with questions.
+- 2026-11-05, FocusPod rev E factory review: materials chosen by analysis, stock sizes, glue named by properties,
+  fastening systems on both sides, ISO holes in the 3D.
