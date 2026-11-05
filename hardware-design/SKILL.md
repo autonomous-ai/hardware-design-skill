@@ -116,7 +116,8 @@ A new session knows only what is written down. A lesson that isn't written here 
 ### 6. Files and checks
 
 - [ ] Send an editable native CAD file with real sketches and parameters, plus the STEP exported from the same
-      revision (§4.4). A STEP alone is not enough.
+      revision (§4.4). A STEP alone is not enough. Send it with every STEP, a resend
+      included. (2026-11-05, FocusPod rev E: a STEP-only resend left the factory engineer with no sketches to edit.)
 - [ ] CAD, drawings and BOM are the same revision and agree (§2.5). If they disagree, stop and fix the source. Never
       leave the factory to pick a file.
 - [ ] The BOM matches the model part by part (§2.6). Check the counts, sizes and materials.
@@ -141,3 +142,4 @@ New lessons go into the checklist above, each with its date and the case that ta
   screws, screws inside one board, a reason for each part, answering from the plan first, and using the planned
   joint.
 - 2026-11-05, GaragePod corner column: the line on adjustment hole rows.
+- 2026-11-05, FocusPod rev E resend: the native file goes with every STEP.
