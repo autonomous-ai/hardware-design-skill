@@ -34,6 +34,10 @@ A new session knows only what is written down. A lesson that isn't written here 
 - [ ] Use the joint the product's plan names. Don't invent another one.
 - [ ] Start from the last proven version and change one thing at a time. Ask how it is really built before changing
       it.
+- [ ] Keep the plan's design values exact (a 6° pitch, a 400 plate). When a derived position doesn't fit, change
+      the part that follows from them, not the design value, and ask if unsure. (2026-11-05, GaragePod: we bent the
+      fan-plate hole pitch to 5.96° to meet the bar's tip hole; the engineer kept 6° and moved the plate to follow
+      the wood frame.)
 - [ ] Re-check everything you inherit after each change. A reason that held before may not hold any more. (A wall
       2300 tall needed board joints; split in two, each panel fits one full sheet.)
 - [ ] Research bought hardware before you model it (§4.3): the maker's own drawing for the exact model. Never draw
@@ -143,3 +147,4 @@ New lessons go into the checklist above, each with its date and the case that ta
   joint.
 - 2026-11-05, GaragePod corner column: the line on adjustment hole rows.
 - 2026-11-05, FocusPod rev E resend: the native file goes with every STEP.
+- 2026-11-05, GaragePod wood frames: keep the plan's design values exact.
