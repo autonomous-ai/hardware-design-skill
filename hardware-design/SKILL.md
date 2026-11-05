@@ -16,7 +16,9 @@ hardware product. A product's own repo (its AGENTS.md) adds rules for that produ
 2. **Pick the checklist lines that apply** to the change, and design to them from the start.
 3. **Before you send**, go through the whole checklist line by line. Send the filled-in list with the files: for each
    line, say done, not needed (and why), or open (and who decides).
-4. **After any feedback** from the factory or the team, add the lesson the same day, with its date and the case that
+4. **When you ask the engineer about a place on the model**, send a screenshot with that place marked, not only words.
+   (2026-11-05, GaragePod: a question asked in words alone wasn't understood.)
+5. **After any feedback** from the factory or the team, add the lesson the same day, with its date and the case that
    taught it. A lesson for any product goes into this skill (send a pull request to its repo). A lesson for one
    product goes into that product's AGENTS.md. Post the new line where the feedback came from, so its author can
    fix your wording.
@@ -72,6 +74,8 @@ A new session knows only what is written down. A lesson that isn't written here 
 
 - [ ] Show how every board is fixed: screws, glue, pilot holes and positions. A drawing with boards but no fixings
       is incomplete.
+- [ ] Show how the product is fixed to the floor or the building, and ask if the plan doesn't say. (2026-11-05,
+      GaragePod link plate: the base plate needed Ø7 holes for M6 screws into the floor.)
 - [ ] Don't over-fasten. Each extra screw costs labour and parts and adds build error. Start from the proven
       version's counts.
 - [ ] Put screws at the board's 4 corners first, 15–20 from the edges, then along the edges. If the corners aren't
@@ -148,3 +152,4 @@ New lessons go into the checklist above, each with its date and the case that ta
 - 2026-11-05, GaragePod corner column: the line on adjustment hole rows.
 - 2026-11-05, FocusPod rev E resend: the native file goes with every STEP.
 - 2026-11-05, GaragePod wood frames: keep the plan's design values exact.
+- 2026-11-05, GaragePod link plate: floor fixing, and marked screenshots with questions.
