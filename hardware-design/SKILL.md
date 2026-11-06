@@ -77,6 +77,9 @@ A new session knows only what is written down. A lesson that isn't written here 
       pressing and cure time.
 - [ ] Name the glue yourself, from the properties the joint needs (load, moisture, heat, cure, the two materials).
       Never write "the factory's usual glue". (2026-11-05, FocusPod rev E factory review)
+- [ ] Give each glue joint a quantity budget (grams per panel), and show it still holds: spread or bead pattern,
+      not a full gap fill by default. (2026-11-06, FocusPod rev F: a 1 mm full PU layer added 5.3 kg per wall; the
+      factory set about 1 kg of glue per wall.)
 - [ ] Don't use permanent glue where the joint must come apart for service (§8.2).
 - [ ] For a fastening system (Velcro, clips, magnets), say how it attaches to each side and why it is the best
       option: long-term holding force, and no gaps where air or sound leaks. (2026-11-05, FocusPod rev E factory review)
@@ -169,3 +172,4 @@ New lessons go into the checklist above, each with its date and the case that ta
 - 2026-11-05, FocusPod rev E factory review: materials chosen by analysis, stock sizes, glue named by properties,
   fastening systems on both sides, ISO holes in the 3D.
 - 2026-11-06, GaragePod frames: a shared datum for common parts.
+- 2026-11-06, FocusPod rev F: a glue quantity budget per panel.
