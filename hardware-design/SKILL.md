@@ -73,6 +73,9 @@ A new session knows only what is written down. A lesson that isn't written here 
 - [ ] Each joint has a register row (§8): the two parts, its job and load path, the options compared and why this
       one, the exact fastener or glue, assembly order and tool access, how it can fail, and how to check it.
 - [ ] Frame corners have a defined joint, for example glue plus screws, with the count and positions.
+- [ ] A plate welded to a column sits flush with the column's edge, and the column has a slot as high as the plate
+      is thick, to weld in. (2026-11-06, GaragePod base plate: it sat 2 off the edge; the engineer moved it flush and
+      cut a 3 high slot.)
 - [ ] Glue joints have a spec (§8.2): which glue, both surfaces, surface prep, coverage or bondline thickness,
       pressing and cure time.
 - [ ] Name the glue yourself, from the properties the joint needs (load, moisture, heat, cure, the two materials).
@@ -173,3 +176,4 @@ New lessons go into the checklist above, each with its date and the case that ta
   fastening systems on both sides, ISO holes in the 3D.
 - 2026-11-06, GaragePod frames: a shared datum for common parts.
 - 2026-11-06, FocusPod rev F: a glue quantity budget per panel.
+- 2026-11-06, GaragePod base plate: flush plate and weld slot.
