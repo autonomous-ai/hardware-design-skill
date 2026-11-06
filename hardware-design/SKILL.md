@@ -40,6 +40,10 @@ A new session knows only what is written down. A lesson that isn't written here 
       the part that follows from them, not the design value, and ask if unsure. (2026-11-05, GaragePod: we bent the
       fan-plate hole pitch to 5.96° to meet the bar's tip hole; the engineer kept 6° and moved the plate to follow
       the wood frame.)
+- [ ] Before adding part variants, look for one shared datum, such as a common rotation centre, that lets parts be
+      common. A design value can give way for that, but only the plan's owner decides. (2026-11-06, GaragePod: the
+      engineer set one rotation centre 20 from both edges so all 12 frames and link plates are common, and dropped
+      the exact 6° for an even split.)
 - [ ] Re-check everything you inherit after each change. A reason that held before may not hold any more. (A wall
       2300 tall needed board joints; split in two, each panel fits one full sheet.)
 - [ ] Research bought hardware before you model it (§4.3): the maker's own drawing for the exact model. Never draw
@@ -164,3 +168,4 @@ New lessons go into the checklist above, each with its date and the case that ta
 - 2026-11-05, GaragePod link plate: floor fixing, and marked screenshots with questions.
 - 2026-11-05, FocusPod rev E factory review: materials chosen by analysis, stock sizes, glue named by properties,
   fastening systems on both sides, ISO holes in the 3D.
+- 2026-11-06, GaragePod frames: a shared datum for common parts.
